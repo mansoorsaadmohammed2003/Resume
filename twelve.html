@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+  <style>
+    body{
+    background-color:silver;
+    }
+    h1{
+    color:red;
+    }
+
+    .d1{
+    display:grid;
+    grid-template-columns:auto auto;
+    gap: 20px;
+      padding: 20px;
+    }
+
+    .d2{
+    background-color:rgb(255,255,0);
+    text-align-center;
+    padding:50px;
+    font-weight:bold;
+    font-family:Ariel;
+    font-style:italic;
+    text-align:center;
+    text-decoration:underline;
+    letter-spacing:0px;
+    word-spacing:0px;
+    border:1px solid green;
+    display:flex;
+    flex-direction:column;
+    }
+    .d3{
+    background-color:rgb(255,0,255);
+    text-align-center;
+    padding:50px;
+    font-weight:bold;
+    font-family:Ariel;
+    font-style:italic;
+    text-align:center;
+    text-decoration:underline;
+    letter-spacing:0px;
+    border:1px solid green;
+    display:flex;
+    flex-direction:column;
+    }
+    table,th{
+    font-size:20px;
+
+    }
+  </style>
+
+</head>
+<body>
+<h1 style="text-align:center">Tables of Cars and Phones</h1>
+<div class="d1">
+  <div class="d2">
+    <table border="2" cellpadding="30" bgcolor="#00ffff">
+    <tr>
+      <th>Cars</th>
+      <th>Color</th>
+      <th>Price</th>
+      <th>Image</th>
+    </tr>
+    <tr>
+      <td>Toyota</td>
+      <td>white</td>
+      <td>2000000</td>
+      <td><img src="supra.jpg" width="100" height="80"></td>
+    </tr>
+    <tr>
+      <td>Suzuki</td>
+      <td>Black</td>
+      <td>500000</td>
+      <td><img src="suzuki.jpg" width="100" height="80"></td>
+    </tr>
+    <tr>
+      <td>Kia</td>
+      <td>Red</td>
+      <td>200000</td>
+      <td><img src="kia.jpg" width="100" height="80"></td>
+    </tr>
+  </table>
+    </div>
+  <div class="d3">
+    <table border="2" cellpadding="30" bgcolor="#ffe4b5">
+    <tr>
+      <th>Phone</th>
+      <th>Chip</th>
+      <th>Price</th>
+      <th>Image</th>
+    </tr>
+    <tr>
+      <td>IPhone</td>
+      <td>A20</td>
+      <td>100000</td>
+      <td><img src="iphone.jpg" width="100" height="80"></td>
+    </tr>
+    <tr>
+      <td>Samsung</td>
+      <td>SD elite</td>
+      <td>120000</td>
+      <td><img src="samsung.jpg" width="100" height="80"></td>
+    </tr>
+    <tr>
+      <td>OnePlus</td>
+      <td>SD gen3</td>
+      <td>45000</td>
+      <td><img src="oneplus.jpg" width="100" height="80"></td>
+    </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>

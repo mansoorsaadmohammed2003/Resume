@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <style>
+        html,body{
+        margin:0;
+        padding:0;
+        height:100%;
+        }
+        body{
+        display:grid;
+        grid-template-rows:auto auto;
+        width:100%;
+        }
+        .d1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:5px;
+
+
+        }
+        .d2{
+        color:white;
+        font-size:20px;
+        background-color:green;
+        text-align:center;
+        font-family:Arial;
+        font-weight:Bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:5px;
+
+        }
+        .d3{
+        height:auto;
+        width:500px;
+        border:3px solid black;
+        justify-content:center;
+        border-radius:10px;
+
+        }
+        .d4{
+        color:white;
+        background-color:green;
+        border-radius:5px;
+
+        transition:background-color 0.5s;
+        }
+        .d4:hover{
+        background-color:black;
+        font-size:30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d1" style="text-align:center;border-radius:10px;">
+        <img src="forest.jpg" height="auto" width="600px"></div>
+    <div class="d2" >
+        <div class="d3" >
+        <p>USER LOGIN</p>
+        <label>Username</label>
+        <input name="username" type="text" placeholder="enter ur username"><br><br><br>
+        <label>Password</label>
+        <input name="password" type="password" placeholder="enter ur password"><br>
+            <p style="font-size:10px">Remember                     Forgot Password?</p>
+        <button class="d4">Submit</button><br><br>
+        </div>
+    </div>
+
+</body>
+</html>

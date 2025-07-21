@@ -1,0 +1,29 @@
+h3 {
+    color: green;
+    font-size: 40px;
+    text-align: center; /* Optional: centers the heading text */
+}
+
+.demo {
+    font-size: 20px;
+    color: blue;
+    background-color: silver;
+    background-image: url('47b3ac20-eb67-4275-9d9f-c3e68fb5f690.png');
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto; /* Centers the form */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.submit {
+    height: 25px;            /* Fixed spelling: hight ➔ height */
+    width: 75px;
+    display: block;          /* Makes button take full width for margin to work */
+    margin: 0 auto;          /* Centers the button horizontally */
+    text-align: center;
+    background-color: green;
+    color: white;
+    border: bold;
+
+}
